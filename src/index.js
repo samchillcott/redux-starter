@@ -10,4 +10,4 @@ const toLowerCase = (str) => str.toLowerCase();
 const transform = pipe(trim, toLowerCase, wrap);
 console.log(transform(input));
 
-const result = wrapInDiv(toLowerCase(trim(input)));
+// const result = wrapInDiv(toLowerCase(trim(input)));
