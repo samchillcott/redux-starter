@@ -7,6 +7,6 @@ store.subscribe(() => {
 
 store.dispatch(bugAdded("Bug 1"));
 
-store.dispatch(bugResolved(1);
+store.dispatch(bugResolved(1));
 
 console.log(store.getState());
